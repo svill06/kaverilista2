@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; 
+    color: #FFFFFF; 
+    padding: 20px;
+}
+
+h1 {
+    color: #FFFFFF; 
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+input {
+    background-color: #333333; 
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+}
+
+#controlButtons {
+    margin: 10px 0;
+}
+
+#friendsList {
+    margin-top: 20px;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.removeBtn {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.removeBtn:hover {
+    background-color: #e04a29;
+}
