@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaverien Lista - Versio 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Kaverilista</h1>
+
+    <label for="friendName">Kaverin nimi:</label>
+    <input type="text" id="friendName">
+    <button id="addFriendBtn">Lisää kaveri</button>
+
+    <div id="controlButtons">
+        <button id="sortBtn">Lajittele aakkosjärjestykseen</button>
+        <button id="clearBtn">Tyhjennä lista</button>
+    </div>
+
+    <div id="friendsList">
+        <h2>Kaverien lista:</h2>
+        <ul id="friendsOutput">
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
